@@ -7,7 +7,7 @@
 # to find the final result array. Initial value of p and q is 1,and to find
 # all other values, we have to iterate nums array both forward and backward
 # simultaneously with consecutive multiplication of their elements from both 
-# and store it in p and q respectively till the loop ends. The final result array 
+# sides and store it in p and q respectively till the loop ends. The final result array 
 # we get when all iterations over is the required answer. 
 
 class Solution:
