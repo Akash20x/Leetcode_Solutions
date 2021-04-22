@@ -5,7 +5,7 @@
 # Now we take a loop to iterate over first k group of workers and push first k group of 
 # workers quality with negative sign in the minimum heap (first element every time 
 # smallest,rest elements push and pop) and find total quality.Now calculate for first k group 
-# of workers total wages = maximum wage/quality ratio * total quality (sum of quality of first
+# of workers total wages = max(wage/quality) ratio * total quality (sum of quality of first
 # k workers).Now iterate over next k group of workers and so on till we reach all quality 
 # values and push their quality values in heap and delete the quality value of first K-1 
 # workers from heap to calculate the quality value of ongoing k workers and multiplied it 
