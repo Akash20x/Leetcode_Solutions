@@ -6,10 +6,11 @@
 # workers quality with negative sign in the minimum heap (first element every time 
 # smallest,rest elements push and pop) and find total quality.Now calculate for first k group 
 # of workers total wages = max(wage/quality) ratio * total quality (sum of quality of first
-# k workers).Now iterate over next k group of workers and so on till we reach all quality 
-# values and push their quality values in heap and delete the quality value of first K-1 
-# workers from heap to calculate the quality value of ongoing k workers and multiplied it 
-# with maximum wage/quality ratio (total quality= max(wage/quality) ratio * total quality).
+# k workers).Here we consider maximum wage /quality ratio so that every worker should get their
+# minimum wage as we consider highest wage amount. Now iterate over next k group of workers and 
+# so on till we reach all quality values and push their quality values in heap and delete the 
+# quality value of first K-1 workers from heap to calculate the quality value of ongoing k workers 
+# and multiplied it with maximum wage/quality ratio (total quality= max(wage/quality) ratio * total quality).
 # Now consider the minimum total wages out of two total wages we calculate to find least 
 # amount of money needed to form a paid group satisfying the above conditions.
 
