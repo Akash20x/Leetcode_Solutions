@@ -9,6 +9,11 @@
 # b) Find no of groups that has no effect on each other if element of one group is changed or removed.
 # Now we take union find of all elements of dictionary to calculate union find(b) groups.
 # Now to find largest no of stones that can be removed=Total no of stones - union find(b) groups.
+# Theoritically, No of union find groups = No of stones that cannot be removed as either it has 
+# following conditions :
+# A) It will be last element left to be removed
+# B) It may not be the last element but it belongs to different group which neither share row 
+# or column with their group elements.
 
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
