@@ -11,9 +11,9 @@
 
 <p>
  0 , -1 Union find with same row or column,
- 0 , -2 Union find with same row or column
- 1 , -1 Union find with same row or column
- 1 , -3 Union find with same row or column
- 2 , -2 Union find with same row or column
- 2 , -3 Union find with same row or column
+ 0 , -2 Union find with same row or column,<br>
+ 1 , -1 Union find with same row or column,<br>
+ 1 , -3 Union find with same row or column,<br>
+ 2 , -2 Union find with same row or column,<br>
+ 2 , -3 Union find with same row or column,<br>
 </p>
