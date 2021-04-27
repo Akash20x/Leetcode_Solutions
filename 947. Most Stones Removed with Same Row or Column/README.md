@@ -6,7 +6,9 @@
 
 ![leetcodej](https://user-images.githubusercontent.com/46225357/116290190-d6842800-a7b0-11eb-84c2-6cce685ba023.png)
 
-## Used i,~j instead of i,j to run code in less time
+## Used i,~j instead of i,j so that j index value does not conflict with i index value 
+when form a dictionary for storing key value pairs for each stone. 
+
 ## In 2d array ~i or ~j starts with -1 and goes on like -1,-2,-3...
 
 ![leetcodei](https://user-images.githubusercontent.com/46225357/116290227-e439ad80-a7b0-11eb-83cd-cbbbc58bf3ca.png)
