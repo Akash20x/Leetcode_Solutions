@@ -8,3 +8,12 @@
 ## Used i,~j instead of i,j to run code in less time
 
 ![leetcodei](https://user-images.githubusercontent.com/46225357/116290227-e439ad80-a7b0-11eb-83cd-cbbbc58bf3ca.png)
+
+<p>
+ 0 , -1 Union find with same row or column,
+ 0 , -2 Union find with same row or column
+ 1 , -1 Union find with same row or column
+ 1 , -3 Union find with same row or column
+ 2 , -2 Union find with same row or column
+ 2 , -3 Union find with same row or column
+</p>
