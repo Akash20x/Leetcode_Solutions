@@ -3,7 +3,7 @@
 # and we have to find largest possible number of stones that can be removed with above condition.
 # To solve this, we have to create a dictionary and iterate over location of each stone and calculate 
 # union find(a) of each stone with row or column (to check stone can be removed with this 
-# row or column or not) and store it as a key value pair for each stone.
+# row or column or not) and store it as a key value pairs for each stone.
 # Here union find used for 2 things: 
 # a) To determine which group a particular element belongs to.
 # b) Find no of groups that has no effect on each other if element of one group is changed or removed.
