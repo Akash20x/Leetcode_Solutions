@@ -12,8 +12,8 @@
 # Theoritically, No of union find groups = No of stones that cannot be removed as either it has 
 # following conditions :
 # A) It will be last element left to be removed
-# B) It may not be the last element but it belongs to different group which neither share row 
-# or column with their group elements.
+# B) It may not be the last element but it belongs to different group and it will be the last
+# element of their group.
 
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
